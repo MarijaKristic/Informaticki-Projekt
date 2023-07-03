@@ -1,0 +1,61 @@
+.planet-card {
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.planet-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.image-container{
+  margin: 10px;
+}
+
+.modal-body {
+  text-align: justify;
+}
+
+.modal-dialog {
+  max-width: 600px;
+}
+
+.modal-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.contact-container {
+  margin-top: 30px;
+}
+
+
+.h1 {
+color: white
+}
+/* Stilizacija za tablet uređaje (širina ekrana između 768px i 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Stilizacija za mobilne uređaje (širina ekrana manja od 768px) */
+@media screen and (max-width: 767px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-container{
+  color: white;
+}

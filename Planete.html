@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Planete Sunčevog sustava</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+        .planet-card {
+      margin-bottom: 20px;
+    }
+    body {
+      background-image: url("https://static.dw.com/image/15638746_401.jpg"); 
+      background-size: cover;
+    }
+    h1{
+        color:white
+    }
+    h2{
+        text-align: center;
+        color: white;
+    }
+    h4{
+        color:white
+    }
+   form {
+    text-align: center;
+   }
+   label{
+    color: white;
+   }
+    
+  </style>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C:/Users/Korisnik24/Desktop/Merkur.html">Merkur<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C:/Users/Korisnik24/Desktop/Venera.html">Venera<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/watch?v=6g0Tl-McJUw">Zemlja<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.gstatic.com/culturalinstitute/searchar/assets/mars/desktop_light.mp4">Mars<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Users/Korisnik24/Desktop/Jupiterovi%20sateliti.html">Jupiter<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/watch?v=yjY_If-GizA">Saturn<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://static.story.hr/Picture/375625/jpeg/uran.jpg?ts=2022-08-24T13:43:02">Uran<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Users/Korisnik24/Desktop/Neptun.html">Neptun<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.meteorologiaenred.com/wp-content/uploads/2022/06/por-que-pluton-no-es-un-planeta.jpg">Patuljasti planeti<span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+<br>
+  <div class="container">
+    <h1 class="mt-4 mb-4">Planete Sunčevog sustava</h1>
+    <h4 class="mt-4 mb-4">Planeta je nebesko tijelo koje obilazi oko zvijezde, u našem Sunčevom sustavu to je Sunce, i koje se kreće <br>
+    eliptičnom putanjom oko zvijezde, dovoljno veliko da ga oblikuje vlastita gravitacija, svijetli odraženom Sunčevom svjetlošću<br>
+    i može imati vlastite prirodne satelite. Nemaju svoj vlastiti izvor energije, zapravo u njihovoj unutrašnjosti ne dolazi do nuklearne fizije.<br>
+    U našem Sunčanom sustavu svi planeti, osim Zemlje, su dobili ime po imenima likova iz rimske mitologije.<br>
+    Više o planetama našeg Sunčevog sustava možete pročitati <a href="file:///C:/Users/Korisnik24/Planet.html">ovdje.</a></h4>
+
+    <!-- MERKUR -->
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card planet-card">
+            <div class="image-container">
+          <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTFFRKg1XEC7kNu58XVZi9vPh6F9ii0FhevCdEAUKyMEtSdx4HLLLNBMacXXX0Y0gLv" class="card-img-top" alt="Merkur">
+          <div class="card-body">
+            <h5 class="card-title">Merkur</h5>
+            <p class="card-text">Prvi planet Sunčevog sustava</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#merkurModal">Saznaj više</button>
+          </div>
+            </div>
+        </div>
+      </div>
+    
+    <!-- VENERA -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card planet-card">
+                <div class="image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/300px-Venus_globe.jpg" class="card-img-top" alt="Venera">
+                <div class="card-body">
+                    <h5 class="card-title">Venera</h5>
+                    <p class="card-text">Drugi planet Sunčevog sustava</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#veneraModal">Saznaj više</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- ZEMLJA -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card planet-card">
+                <div class="image-container">
+                <img src="https://static.wikia.nocookie.net/planetes/images/1/1d/%D0%97%D0%B5%D0%BC%D1%99%D0%B0.jpg/revision/latest/scale-to-width-down/1200?cb=20171012152551&path-prefix=sr" class="card-img-top" alt="Zemlja">
+                <div class="card-body">
+                    <h5 class="card-title">Zemlja</h5>
+                    <p class="card-text">Treći planet Sunčevog sustava</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#zemljaModal">Saznaj više</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MARS -->
+    <div class="row">
+            <div class="col-lg-4 col-md-6">
+            <div class="card planet-card">
+                <div class="image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1200px-OSIRIS_Mars_true_color.jpg" class="card-img-top" alt="Mars">
+                <div class="card-body">
+                    <h5 class="card-title">Mars</h5>
+                    <p class="card-text">Četvrti planet Sunčevog sustava</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#marsModal">Saznaj više</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- JUPITER -->
+  
+        <div class="col-lg-4 col-md-6">
+            <div class="card planet-card">
+                <div class="image-container">
+                <img src="https://solarsystem.nasa.gov/internal_resources/4909" class="card-img-top" alt="Jupiter">
+                <div class="card-body">
+                    <h5 class="card-title">Jupiter</h5>
+                    <p class="card-text">Peti planet Sunčevog sustava</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#jupiterModal">Saznaj više</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- SATURN -->
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card planet-card">
+                <div class="image-container">
+                <img src="https://images.squarespace-cdn.com/content/v1/5fa5ec79661ee904d2973ca0/1678740394793-H2ZM9W2E8WFYUOCVFDHY/saturn.png" class="card-img-top" alt="Saturn">
+                <div class="card-body">
+                    <h5 class="card-title">Saturn</h5>
+                    <p class="card-text">Šesti planet Sunčevog sustava</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#saturnModal">Saznaj više</button>
+                </div>
+                </div>
+            </div>
+         </div>
+      </div>
+
+    <!-- URAN -->
+
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+        <div class="card planet-card">
+            <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/300px-Uranus2.jpg" class="card-img-top" alt="Uran">
+            <div class="card-body">
+                <h5 class="card-title">Uran</h5>
+                <p class="card-text">Sedmi planet Sunčevog sustava</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#uranModal">Saznaj više</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- NEPTUN -->
+
+    <div class="col-lg-4 col-md-6">
+        <div class="card planet-card">
+            <div class="image-container">
+            <img src="https://kozmos.hr/wp-content/uploads/2022/05/neptun_voyager2-1.jpg" class="card-img-top" alt="Neptun">
+            <div class="card-body">
+                <h5 class="card-title">Neptun</h5>
+                <p class="card-text">Osmi planet Sunčevog sustava</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#neptunModal">Saznaj više</button>
+            </div>
+            </div>
+        </div>
+    </div>
+  
+ 
+    <!-- PATULJASTE PLANETE -->
+
+    <div class="col-lg-4 col-md-6">
+        <div class="card planet-card">
+            <div class="image-container">
+            <img src="https://www.tportal.hr/media/thumbnail/800x600_full/1775251.jpeg" class="card-img-top" alt="Patuljasti planeti">
+            <div class="card-body">
+                <h5 class="card-title">Patuljasti planeti</h5>
+                <p class="card-text">Pluton..ah Pluton</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#patuljasteModal">Saznaj više</button>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+      <!-- Modal za Merkur -->
+      <div class="modal fade" id="merkurModal" tabindex="-1" role="dialog" aria-labelledby="merkurModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="merkurModalLabel">Merkur</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Ako želite znati neke činjenice o Merkuru, <a href="file:///C:/Users/Korisnik24/Desktop/Merkur.html" target="_blank">klikni ovdje.</a></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal za Veneru -->
+      <div class="modal fade" id="veneraModal" tabindex="-1" role="dialog" aria-labelledby="veneraModallabel" aria-hidden="true">
+        <div class="modal-dialog" role="documet">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="veneraModallabel">Venera</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-labek="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Za više informacija o Veneri, klikni <a href="file:///C:/Users/Korisnik24/Desktop/Venera.html" target="_blank">ovdje.</a></p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+       <!-- Modal za Zemlju -->
+       <div class="modal fade" id="zemljaModal" tabindex="-1" role="dialog" aria-labelledby="zemljaModallabel" aria-hidden="true">
+        <div class="modal-dialog" role="documet">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="zemljaModallabel">Zemlja</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-labek="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Pogledaj ovaj <a href="https://www.youtube.com/watch?v=6g0Tl-McJUw" target="_blank">video</a> i zapitaj se znaš li zapravo gdje živiš.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      
+       <!-- Modal za Mars -->
+       <div class="modal fade" id="marsModal" tabindex="-1" role="dialog" aria-labelledby="marsModallabel" aria-hidden="true">
+        <div class="modal-dialog" role="documet">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="marsModallabel">Mars</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-labek="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Zanimaju te neke činjenice o Marsu, izvoli <a href="file:///C:/Users/Korisnik24/Desktop/Mars.html" target="_blank">ovdje</a> ih pogledaj. Uživaj.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+           <!-- Modal za Jupiter -->
+           <div class="modal fade" id="jupiterModal" tabindex="-1" role="dialog" aria-labelledby="jupiterModallabel" aria-hidden="true">
+            <div class="modal-dialog" role="documet">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="jupiterModallabel">Jupiter</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-labek="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Jeste li znali da Jupiter ima prirodne satelite? <a href="file:///C:/Users/Korisnik24/Desktop/Jupiterovi%20sateliti.html" target="_blank"> Pogledajte!!</a></p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+             <!-- Modal za Saturn -->
+       <div class="modal fade" id="saturnModal" tabindex="-1" role="dialog" aria-labelledby="saturnModallabel" aria-hidden="true">
+        <div class="modal-dialog" role="documet">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="saturnModallabel">Saturn</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-labek="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Nauči sve o Saturnu, samo jednim <a href="https://www.youtube.com/watch?v=yjY_If-GizA" target="_blank">klikom!!!</a></p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+           <!-- Modal za Uran -->
+           <div class="modal fade" id="uranModal" tabindex="-1" role="dialog" aria-labelledby="uranModallabel" aria-hidden="true">
+            <div class="modal-dialog" role="documet">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="uranModallabel">Uran</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-labek="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Uran, plavi planet koji je dobio ime po grčkom bogu Uranusu.</p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+               <!-- Modal za Neptun -->
+       <div class="modal fade" id="neptunModal" tabindex="-1" role="dialog" aria-labelledby="neptunModallabel" aria-hidden="true">
+        <div class="modal-dialog" role="documet">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="neptunModallabel">Neptun</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-labek="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Vrijeme je da pogledate neke <a href="file:///C:/Users/Korisnik24/Desktop/Neptun.html" target="_blank">zanimljivosti</a> o Neptunu.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+        </div>
+
+               <!-- Modal za Patuljaste planete -->
+               <div class="modal fade" id="patuljasteModal" tabindex="-1" role="dialog" aria-labelledby="patuljasteModallabel" aria-hidden="true">
+                <div class="modal-dialog" role="documet">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="patuljasteModallabel">Patuljaste planete</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-labek="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Pluton Pluton...</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                        </div>
+                    </div>
+                </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-container">
+    <h2>Kontaktirajte nas</h2>
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Ime:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email adresa:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Poruka:</label>
+        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Pošalji</button>
+    </form>
+  </div>
+
+
+</body>
+</html>
